@@ -25,7 +25,7 @@ And browse 0.0.0.0:8888.
 Execute below command.
 
 ```sh
-$ docker run -it -p 8888:8888 nacyot/ijulia:apt ipython notebook --profile julia --ip=0.0.0.0 --notebook-dir=/root/notebooks
+$ docker run -it nacyot/ijulia:apt ipython notebook --profile julia --ip=0.0.0.0 --notebook-dir=/root/notebooks
 ```
 
 # References

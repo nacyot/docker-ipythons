@@ -11,4 +11,4 @@ RUN julia --eval 'Pkg.add("IJulia"); Pkg.add("PyPlot"); Pkg.update()'
 
 VOLUME /root/notebooks
 EXPOSE 8888
-CMD ipython notebook --profile julia --ip=0.0.0.0 --notebook-dir=/root/notebooks
+CMD ipython notebook --profile julia --ip=0.0.0.0 --notebook-dir=/root/notebooks --port 8888
