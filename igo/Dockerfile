@@ -1,6 +1,7 @@
 FROM nacyot/go-go:1.3
 
 RUN \
+  apt-get update && \
   apt-get install -y libzmq3 libzmq3-dev python python-pip mercurial pkg-config \
     python-zmq python-jinja2 python-tornado python && \
   pip install ipython
