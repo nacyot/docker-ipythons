@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 
-options(repos=structure(c(CRAN="http://cran.md.tsukuba.ac.jp")))
+options(repos=structure(c(CRAN="http://cran.cnr.Berkeley.edu")))
 install.packages("devtools")
 install.packages('RCurl')
 library(devtools)
