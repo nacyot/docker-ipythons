@@ -1,6 +1,6 @@
 # Ipython - python2
 
-Ipython is a Docker image for iptyhon whice use ocaml language kernel.
+Ipython is a Docker image for iptyhon which use python language kernel.
 
 # Usage
 
